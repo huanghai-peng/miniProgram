@@ -1,0 +1,20 @@
+<!--pages/category/childCpns/h-tab-content/h-tab-content.wxml-->
+<scroll-view class="tab-content"
+   scroll-y scroll-top="{{scrollTop}}"
+  scroll-with-animation="true" bindscroll="srcollPosition">
+  <view class="content-info">
+    <block wx:for="{{categoryData[currentIndex].categories}}" wx:key="index">
+      <view class="info-item">
+        <image src="{{item.image}}" class="info-image" lazy-load/>
+        <view class="info-title">{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+
+
+  <h-tab-control titles="{{['综合','新品','销量']}}" bind:currentClik="currentClik"/>
+
+  <h-goods goods="{{categoryData[currentIndex].categoryDetail[currentType]}}"/>
+
+  <h-back-top bind:tap="scrollBack" wx:if="{{isShow}}"/>
+</scroll-view>

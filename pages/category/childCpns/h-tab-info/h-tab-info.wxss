@@ -1,0 +1,17 @@
+/* pages/category/childCpns/h-tab-info/h-tab-info.wxss */
+.categoryInfo {
+  height: 100vh;
+}
+.category-item {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #F6F6F6;
+  color: #555;
+}
+.active {
+  background-color: #fff;
+  border-left: 6rpx solid #ff5777;
+  color: #ff5777;
+}

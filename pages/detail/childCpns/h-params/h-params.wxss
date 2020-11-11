@@ -1,0 +1,32 @@
+/* pages/detail/childCpns/h-params/h-params.wxss */
+.params {
+  padding: 30rpx 20rpx 40rpx;
+  border-bottom: 16rpx solid #eee;
+  color: #555;
+}
+.params-size {
+  display: flex;
+  flex-wrap: wrap;
+}
+.params-item {
+  width: 25%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #ccc;
+  font-size: 28rpx;
+}
+.info-item {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+.info-key {
+  width: 25%;
+}
+.info-value {
+  width: 75%;
+  color: #ff5777;
+}

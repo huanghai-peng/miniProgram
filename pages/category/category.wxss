@@ -1,0 +1,12 @@
+/* pages/category/category.wxss */
+.category {
+  /* position: relative; */
+  display: flex;
+}
+.category-menu {
+  width: 29%;
+}
+.category-content {
+  /* position: absolute; */
+  width: 70%;
+}

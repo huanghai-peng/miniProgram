@@ -1,0 +1,7 @@
+/* pages/detail/detail.wxss */
+.swiper swiper{
+  height: 600rpx;
+}
+.back-top view{
+  bottom: 116rpx;
+}

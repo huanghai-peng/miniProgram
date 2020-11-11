@@ -1,0 +1,43 @@
+/* pages/profile/childCpns/h-profile-login/h-profile-login.wxss */
+.profile-header {
+  display: flex;
+  background-color: #ff5777;
+}
+.user-image {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+.user-image .image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  background-color: #F2F2F2;
+}
+.login-message {
+  flex: 1;
+  margin-top: 40rpx;
+  color: #fff;
+}
+.login {
+  font-size: 32rpx;
+}
+.phone-info {
+  font-size: 26rpx;
+}
+.phone-icon {
+  position: relative;
+  top: 10rpx;
+  width: 35rpx;
+  height: 40rpx;
+}
+.right {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+}
+.right-icon {
+  width: 80rpx;
+  height: 80rpx;
+}

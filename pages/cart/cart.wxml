@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<h-cart-list cartLists="{{cartLists}}" />
+
+<h-cart-bottom-bar selectAll="{{selectAll}}"
+    selectCount="{{selectCount}}"
+    totalPrice="{{totalPrice}}"
+    bind:selectAllClick="selectAllClick"/>

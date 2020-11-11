@@ -1,0 +1,9 @@
+<!--pages/profile/childCpns/h-list/h-list.wxml-->
+<view class="list">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="list-item">
+      <image src="/assets/images/profile{{item.icon}}" class="list-icon"/>
+      <text class="icon-msg">{{item.iconMsg}}</text>
+    </view>
+  </block>
+</view>

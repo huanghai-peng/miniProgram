@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-tab-info":"./childCpns/h-tab-info/h-tab-info",
+    "h-tab-content":"./childCpns/h-tab-content/h-tab-content"
+  }
+}

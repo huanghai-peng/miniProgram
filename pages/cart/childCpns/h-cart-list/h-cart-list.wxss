@@ -1,0 +1,4 @@
+/* pages/cart/childCpns/h-cart-list/h-cart-list.wxss */
+.cart-list {
+  margin-bottom: 88rpx;
+}

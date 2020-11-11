@@ -1,0 +1,62 @@
+/* pages/detail/childCpns/h-detail-info/h-detail-info.wxss */
+.detail-info {
+  margin-bottom: 20rpx;
+  padding: 30rpx 0 40rpx;
+  border-bottom: 16rpx solid #eee;
+  color: #555;
+}
+.detail-item {
+  padding: 0 20rpx;
+}
+.info {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  /* display: inline-block; */
+  top: 22rpx;
+  left: 0;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #000;
+}
+.icon-bottom
+ {
+  display: inline-block;
+  width: 150rpx;
+  height: 2rpx;
+  background-color: #555;
+}
+.desc {
+  margin: 20rpx 0;
+}
+.icon2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #000;
+}
+.icon-bottom2 {
+  position: absolute;
+  right: 0; 
+  top: 10rpx;
+  display: inline-block;
+  width: 150rpx;
+  height: 2rpx;
+  background-color: #555;  
+}
+.detail-info-image {
+  margin-top: 60rpx;
+}
+.detail-info-key {
+  font-size: 32rpx;
+  color: #555;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+  color: #555;
+}
+.detail-info-image .image {
+  width: 100%;
+}

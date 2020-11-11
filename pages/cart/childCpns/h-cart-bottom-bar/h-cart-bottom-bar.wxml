@@ -1,0 +1,13 @@
+<!--pages/cart/childCpns/h-cart-bottom-bar/h-cart-bottom-bar.wxml-->
+<wxs src="../../../../wxs/tofixed.wxs" module="format" />
+<view class="bottom-bar">
+  <view class="select-icon" bind:tap="selectClick">
+    <image src="/assets/images/cart/tick.svg" class="image {{selectAll ? 'active':''}}" />
+    <text>全选</text>
+  </view>
+  <view class="totalCount">
+    <text>总计：</text>
+    <text class="price">￥{{format.numberFormat(totalPrice)}}</text>
+  </view>
+  <view class="compute">去计算({{selectCount}})</view>
+</view>

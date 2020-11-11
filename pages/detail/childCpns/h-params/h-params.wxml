@@ -1,0 +1,19 @@
+<!--pages/detail/childCpns/h-params/h-params.wxml-->
+<view class="params">
+  <view class="params-size">
+    <block wx:for="{{paramInfo.tables[0]}}" wx:key="index">
+      <block wx:for="{{item}}" wx:key="index">
+        <view class="params-item">{{item}}</view>
+      </block>
+    </block>
+  </view>
+
+  <view class="info">
+    <block wx:for="{{paramInfo.info}}" wx:key="index">
+      <view class="info-item">
+        <view class="info-key">{{item.key}}</view>
+        <view class="info-value">{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+</view>

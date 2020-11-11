@@ -1,0 +1,41 @@
+/* components/h-goods-item/h-goods-item.wxss */
+.goods-item {
+  padding-bottom: 85rpx;
+}
+.image {
+  width: 100%;
+  border-radius: 16rpx;
+}
+.desc-info {
+  position: absolute;
+  bottom: 5rpx;
+  left: 0;
+  right: 0;
+}
+.title {
+  text-align: center;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #555;
+}
+.info {
+  text-align: center;
+  font-size: 24rpx;
+}
+.info .icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 10rpx;
+  vertical-align: middle;
+  position: relative;
+  bottom: 5rpx;
+}
+.price {
+  color: #ff5777;
+}
+.info {
+  color: #777;
+  margin-top: 6rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <h-tab-info categoryInfo="{{category}}" bind:tabData="tabData" class="category-menu"/>
+
+  <view class="category-content">
+      <h-tab-content categoryData="{{categoryData}}" currentIndex="{{currentIndex}}"/>
+  </view>
+</view>
+
+

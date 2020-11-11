@@ -1,0 +1,8 @@
+/* pages/detail/childCpns/h-recommend/h-recommend.wxss */
+.recommend {
+  padding-bottom: 20rpx;
+}
+.recommend-title {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}

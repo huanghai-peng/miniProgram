@@ -1,0 +1,21 @@
+<!--pages/detail/childCpns/h-comment/h-comment.wxml-->
+<wxs src="../../../../wxs/utils.wxs" module="format"/>
+<view class="comment">
+  <view class="comment-info">
+    <view>用户评论</view>
+    <view>更多 >></view>
+  </view>
+  <view>
+    <view class="comment-user">
+      <image src="{{comment.user.avatar}}" class="comment-user-image" />
+      <text>{{comment.user.uname}}</text>
+    </view>
+    <view>
+      <view class="comment-content">{{comment.content}}</view>
+    </view>
+    <view class="comment-time">
+      <text class="comment-created">{{format.dateFormat(comment.created,'yyyy-MM-dd hh:mm:ss')}}</text>
+      <text>{{comment.style}}</text>
+    </view>
+  </view>
+</view>

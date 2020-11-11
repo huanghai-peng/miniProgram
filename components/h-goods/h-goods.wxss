@@ -1,0 +1,12 @@
+/* components/h-goods/h-goods.wxss */
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+.item {
+  width: 48%;
+  position: relative;
+  margin-top: 20rpx;
+}

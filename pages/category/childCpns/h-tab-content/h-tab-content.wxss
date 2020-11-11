@@ -1,0 +1,24 @@
+/* pages/category/childCpns/h-tab-content/h-tab-content.wxss */
+.tab-content {
+  height: 100vh;
+}
+.content-info {
+  margin-top: 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.info-item {
+  width: 33%;
+  padding-bottom: 20rpx;
+}
+.info-image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.info-title {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #555;
+}

@@ -1,0 +1,24 @@
+<!--pages/detail/childCpns/h-detail-goods.wxml-->
+<view class="goods">
+  <view class="goods-title">{{goodsInfo.title}}</view>
+  <view class="goods-price">
+    <text class="price">{{goodsInfo.price}}</text>
+    <text class="oldPrice">{{goodsInfo.oldPrice}}</text>
+    <text class="desc" style="background-color:{{goodsInfo.discountBgColor}}">{{goodsInfo.discountDesc}}</text>
+  </view>
+  <view class="columns">
+    <block wx:for="{{goodsInfo.columns}}" wx:key="index">
+      <view class="columns-item">{{item}}</view>
+    </block>
+  </view>
+  <view class="services">
+    <block wx:for="{{goodsInfo.services}}" wx:key="index">
+      <block wx:if="{{index !==0}}">
+        <view class="services-item">
+          <image src="{{item.icon}}" class="icon" />
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </block>
+  </view>
+</view>

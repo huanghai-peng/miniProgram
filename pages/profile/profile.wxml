@@ -1,0 +1,8 @@
+<!--pages/profile/profile.wxml-->
+<h-profile-login />
+
+<h-profile-info />
+
+<h-list list="{{list}}"/>
+
+<h-list list="{{apps}}" class="apps"/>

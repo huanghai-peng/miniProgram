@@ -1,0 +1,8 @@
+<!--pages/category/childCpns/h-tab-info/h-tab-info.wxml-->
+<scroll-view class="categoryInfo" scroll-y>
+  <block wx:for="{{categoryInfo}}" wx:key="index">
+    <view class="category-item {{currentIndex==index ? 'active':''}}"
+       bind:tap="handerTab"
+        data-index="{{index}}">{{item.title}}</view>
+  </block>
+</scroll-view>

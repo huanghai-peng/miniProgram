@@ -1,0 +1,22 @@
+/* pages/profile/childCpns/h-list/h-list.wxss */
+.list {
+  border-bottom: 16rpx solid #eee;
+}
+.list-item {
+  font-size: 34rpx;
+  padding: 25rpx;
+  color: #555;
+  border-bottom: 2rpx solid #eee;
+}
+.list-item:last-child {
+  border: 0;
+}
+.list-icon {
+  position: relative;
+  top: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.icon-msg {
+  margin-left: 20rpx;
+}

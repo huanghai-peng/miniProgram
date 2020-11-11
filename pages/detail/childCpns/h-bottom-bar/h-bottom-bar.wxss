@@ -1,0 +1,38 @@
+/* pages/detail/childCpns/h-bottom-bar/h-bottom-bar.wxss */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 98rpx;
+  background-color: #fff;
+}
+.bottom-bar-item {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  font-size: 24rpx;
+}
+.icon {
+  flex: 1;
+  color: #555;
+}
+.icon-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 10rpx;
+}
+.bottom-bar-item .base{
+  flex: 1;
+  text-align: center;
+  line-height: 98rpx;
+}
+.shop {
+  background-color: #FFE817;
+  color: #555;
+}
+.buy {
+  background-color: #FF5777;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+<!--pages/detail/detail.wxml-->
+<!-- 1.展示轮播图 -->
+<h-swiper lists="{{topImages}}" class="swiper"/>
+
+<!-- 2.展示商品信息 -->
+<h-detail-goods goodsInfo="{{goodsInfo}}" />
+
+<!-- 3.展示店铺信息 -->
+<h-shop shop="{{shop}}" />
+
+<!-- 4.展示商品描述和详情 -->
+<h-detail-info  detailInfo="{{detailInfo}}"/>
+
+<!-- 5.展示尺寸和规格 -->
+<h-params paramInfo="{{paramInfo}}" />
+
+<!-- 6.展示评论 -->
+<h-comment comment="{{comment}}" />
+
+<!-- 7.商品推荐 -->
+<h-recommend recommend="{{recommend}}" />
+
+<!-- 8.商家咨询和加入购物车 -->
+<h-bottom-bar bind:addCart="addCart" />
+
+<!-- 9.返回顶部 -->
+<h-back-top class="back-top" wx:if="{{isBack}}"/>
+

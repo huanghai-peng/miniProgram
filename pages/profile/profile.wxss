@@ -1,0 +1,4 @@
+/* pages/profile/profile.wxss */
+.apps>view{
+  border: 0;
+}

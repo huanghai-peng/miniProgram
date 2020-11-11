@@ -1,0 +1,60 @@
+/* pages/detail/childCpns/h-detail-goods.wxss */
+.goods {
+  padding: 30rpx 20rpx 40rpx;
+  border-bottom: 16rpx solid #eee;
+  color: #555;
+}
+.goods-price {
+  margin: 10rpx 0;
+}
+.price {
+  color: #ff5777;
+  font-size: 34rpx;
+  margin-left: 20rpx;
+}
+.oldPrice {
+  margin: 0 20rpx;
+  text-decoration: line-through;
+  font-size: 28rpx;
+}
+.desc {
+  position: relative;
+  top: -12rpx;
+  left: 8rpx;
+  width: 20rpx;
+  height: 10rpx;
+  color: #fff;
+  font-size: 20rpx;
+  border-radius: 16rpx;
+  padding: 4rpx 6rpx;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 4rpx solid #eee;
+}
+.columns-item {
+  text-align: center;
+}
+.icon {
+  position: relative;
+  top: 2rpx;
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+.services {
+  display: flex;
+  font-size: 24rpx;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.services-item {
+  /* flex: 1; */
+  text-align: center;
+}

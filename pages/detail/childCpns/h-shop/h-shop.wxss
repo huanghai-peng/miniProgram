@@ -1,0 +1,76 @@
+/* pages/detail/childCpns/h-shop/h-shop.wxss */
+.shop {
+  padding: 30rpx 20rpx 40rpx;
+  border-bottom: 16rpx solid #eee;
+  color: #555;
+}
+.title {
+  margin-bottom: 60rpx;
+}
+.shop-image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  border: 2rpx solid #ccc;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.shop-message {
+  display: flex;
+  margin-bottom: 60rpx;
+}
+.shop-info {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  border-right: 2rpx solid #ccc;
+  font-size: 28rpx;
+}
+.shop-info:last-child {
+  border: none;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.cSells,
+.cGoods {
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 36rpx;
+}
+.score {
+  text-align: center;
+}
+.score-info {
+  display: flex;
+  font-size: 28rpx;
+}
+.score-name {
+  width: 40%;
+}
+.score-better {
+  width: 20%;
+}
+.red {
+  color: #FF5777;
+}
+.green {
+  color: #7CB758;
+}
+.score {
+  flex: 1;
+}
+.shop-text {
+  text-align: center;
+}
+.text {
+  display: inline-block;
+  width: 150rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 60rpx;
+  font-size: 24rpx;
+  color: #444;
+  background-color: #f8f8f8;
+  border-radius: 16rpx;
+}

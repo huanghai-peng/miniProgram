@@ -1,0 +1,15 @@
+<!--pages/profile/childCpns/h-profile-info/h-profile.info.wxml-->
+<view class="info">
+  <view class="info-item">
+    <view><text class="msg">0.00</text>元</view>
+    <view class="balance">我的余额</view>
+  </view>
+  <view class="info-item">
+    <view><text class="msg">0</text>个</view>
+    <view class="discounts">我的优惠</view>
+  </view>
+  <view class="info-item">
+    <view><text class="msg">0</text>分</view>
+    <view class="integral">我的积分</view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "h-profile-login":"./childCpns/h-profile-login/h-profile-login",
+    "h-profile-info":"./childCpns/h-profile-info/h-profile-info",
+    "h-list":"./childCpns/h-list/h-list"
+  },
+  "navigationBarTitleText": "个人档案"
+}

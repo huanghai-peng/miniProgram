@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<!-- 1.展示轮播图 -->
+<h-swiper lists="{{banners}}" />
+
+<!-- 2.推荐数据的展示 -->
+<h-recommend recommends="{{recommends}}" bind:imageLoad="imageLoad" />
+
+<!-- 3.本周流行的展示 -->
+<h-popular />
+
+<!-- 4.tab-control -->
+<view hidden="{{!showTabControl}}">
+  <h-tab-control titles="{{titles}}" bind:currentClik="currentClik" class="fixed" id="tab-control1" />
+</view>
+<h-tab-control titles="{{titles}}" bind:currentClik="currentClik" id="tab-control" />
+
+<!-- 5.展示商品数据 -->
+<h-goods goods="{{goods[currentType].list}}" />
+
+<!-- 6.back-top -->
+<h-back-top wx:if="{{showBackTop}}"/>

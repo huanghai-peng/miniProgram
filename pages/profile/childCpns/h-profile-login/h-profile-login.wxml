@@ -1,0 +1,18 @@
+<!--pages/profile/childCpns/h-profile-login/h-profile-login.wxml-->
+<view class="profile-login">
+  <view class="profile-header">
+    <view class="user-image">
+      <image src="/assets/images/profile/avatar.png"  class="image"/>
+    </view>
+    <view class="login-message">
+      <view class="login">登录/注册</view>
+      <view class="phone-info">
+        <image src="/assets/images/profile/phone.png" class="phone-icon"/>
+        <text>暂无绑定手机号</text>
+      </view>
+    </view>
+    <view class="right">
+        <image src="/assets/images/common/arrow-right.png" class="right-icon" />
+      </view>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/detail/childCpns/h-shop/h-shop.wxml-->
+<view class="shop">
+  <view class="title">
+    <image src="{{shop.shopLogo}}" class="shop-image" />
+    <text>{{shop.name}}</text>
+  </view>
+  <view class="shop-message">
+    <view class="shop-info">
+      <view class="shop-info-item">
+        <view class="cSells">{{shop.cSells}}</view>
+        <view>总销量</view>
+      </view>
+      <view class="shop-info-item">
+        <view class="cGoods">{{shop.cGoods}}</view>
+        <view>全部宝贝</view>
+      </view>
+    </view>
+    <view class="shop-info">
+      <block wx:for="{{shop.score}}" wx:key="index">
+        <view class="score-info">
+          <view class="score-name">{{item.name}}</view>
+          <view class="score {{item.isBetter ? 'red' :'green'}}">{{item.score}}</view>
+          <view class="score-better {{item.isBetter ? 'red' :'green'}}">{{item.isBetter ? '高' : '低'}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="shop-text">
+    <text class="text">进店逛逛</text>
+  </view>
+</view>

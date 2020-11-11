@@ -1,0 +1,20 @@
+<!--pages/detail/childCpns/h-detail-info/h-detail-info.wxml-->
+<view class="detail-info">
+  <view class="detail-item">
+    <view class="info">
+      <text class="icon"></text>
+      <text class="icon-bottom"></text>
+    </view>
+    <view class="desc">{{detailInfo.desc}}</view>
+    <view class="info">
+      <text class="icon2"></text>
+      <text class="icon-bottom2"></text>
+    </view>
+  </view>
+  <view class="detail-info-image">
+    <view class="detail-info-key">{{detailInfo.detailImage[0].key}}</view>
+    <block wx:for="{{detailInfo.detailImage[0].list}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix" class="image"/>
+    </block>
+  </view>
+</view>

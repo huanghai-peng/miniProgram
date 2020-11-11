@@ -1,0 +1,18 @@
+<!--pages/cart/childCpns/h-cart-list-item/h-cart-list-item.wxml-->
+<view class="cart-item">
+  <view class="tick">
+    <image src="/assets/images/cart/tick.svg" mode="widthFix" 
+      class="icon {{itemInfo.checked ? 'active':''}}" bind:tap="itemClick" />
+  </view>
+  <view class="cart-image">
+    <image src="{{itemInfo.imageUrl}}" mode='aspectFill' class="image-detail"/>
+  </view>
+  <view class="cart-message">
+    <view class="cart-title base">{{itemInfo.title}}</view>
+    <view class="cart-desc base">{{itemInfo.desc}}</view>
+    <view class="price">
+      <view class="price-item">￥{{itemInfo.price}}</view>
+      <view class="count">x{{itemInfo.counter}}</view>
+    </view>
+  </view>
+</view>
